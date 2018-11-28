@@ -19,6 +19,7 @@ public class TrueFalseQuestion implements Question {
 			return true;
 		} 
 		// keep working on this method pls
+		else return false;
 	}
 	
 	public String getCorrectAnswer() {

@@ -30,7 +30,7 @@ public class Quiz {
 	public double giveQuiz() {
 		double score = 0.0;
 
-		System.out.println("How much do you know about Thomas Pynchon and some of my other reading habits? \nBegin... \n");
+		System.out.println("Begin...\n");
 		
 		for (int i=0; i<questionsList.length; i++) {
 

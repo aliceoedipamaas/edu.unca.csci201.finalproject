@@ -6,8 +6,8 @@ public class TrueFalseQuestion implements Question {
 	public boolean answer;
 	
 	TrueFalseQuestion(String statement, boolean answer) {
-		statement = statement;
-		answer = answer;
+		this.statement = statement;
+		this.answer = answer;
 	}
 	
 	public String getTheQuestionText() {
@@ -17,9 +17,7 @@ public class TrueFalseQuestion implements Question {
 	public boolean isCorrectAnswer(String theirAnswer) {
 		if (theirAnswer=="true"&& answer==true) {
 			return true;
-		} 
-		// keep working on this method pls
-		else return false;
+		} else return false;
 	}
 	
 	public String getCorrectAnswer() {

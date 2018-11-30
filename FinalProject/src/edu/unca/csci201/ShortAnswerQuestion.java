@@ -15,7 +15,7 @@ public class ShortAnswerQuestion implements Question {
 	}
 	
 	public boolean isCorrectAnswer(String theirAnswer) {
-		if (theirAnswer==Answer) {
+		if (theirAnswer.equalsIgnoreCase(Answer)) {
 			return true;
 		} else return false;
 	}

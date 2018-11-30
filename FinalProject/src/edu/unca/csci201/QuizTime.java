@@ -9,12 +9,15 @@ public class QuizTime {
 		quiztyme.addQuestion(new TrueFalseQuestion("this is correct", true));
 		
 		
-		quiztyme.addQuestion(new TrueFalseQuestion("Thomas Pynchon is one of the best novelists of the twentieth century.", true));
 		quiztyme.addQuestion(new MultipleChoiceQuestion("Which of these books won the National Book Award for Fiction in 1974?","a. The Moviegoer","b. Herzog","c. Gravity's Rainbow", "d. Catch-22","c"));
 		quiztyme.addQuestion(new ShortAnswerQuestion("Why was Gravity's Rainbow snubbed for the Pulitzer Prize in Fiction?","the scat scene"));
 		quiztyme.addQuestion(new TrueFalseQuestion("The Crying of Lot 49 was published in 1968.", false));
 		quiztyme.addQuestion(new ShortAnswerQuestion("Who is the protagonist of The Crying of Lot 49?","Oedipa Maas"));
 		quiztyme.addQuestion(new ShortAnswerQuestion("What is Thomas Pynchon's middle name?","Ruggles"));
+		quiztyme.addQuestion(new MultipleChoiceQuestion("Which military branch was Pynchon in after WWII?","a. army","b. marines","c. navy","d. air force","c"));
+		quiztyme.addQuestion(new ShortAnswerQuestion("Where did he go to college?","Cornell"));
+		quiztyme.addQuestion(new ShortAnswerQuestion("What was his favorite novel in college?","Warlock"));
+		quiztyme.addQuestion(new TrueFalseQuestion("He attended lectures at Cornell by Nabokov but Nabokov did not remember him.", true));
 		quiztyme.addQuestion(new ShortAnswerQuestion("What is his wife's occupation?","literary agent"));
 		quiztyme.addQuestion(new ShortAnswerQuestion("Which is his shortest novel?","The Crying of Lot 49"));
 		quiztyme.addQuestion(new ShortAnswerQuestion("Which is his longest novel?","Against the Day"));
@@ -32,9 +35,6 @@ public class QuizTime {
 		quiztyme.addQuestion(new MultipleChoiceQuestion("Which of these books was also written by John Barth?", "a. The Beekeeper's Manual", "b. Ambrose", "c. House of Leaves", "d. Lost in the Funhouse", "d"));
 		quiztyme.addQuestion(new ShortAnswerQuestion("Who is the best Pynchonesque author of the fin de siecle?", "Elfriede Jelinek"));
 		quiztyme.addQuestion(new ShortAnswerQuestion("In her book The Piano Teacher, who are the protagonist's two favorite composers (in alphabetical order)?","Bach and Schubert."));
-		quiztyme.addQuestion(new TrueFalseQuestion("She attended the ceremony when she won the Nobel Prize for Literature.", false));
-		quiztyme.addQuestion(new ShortAnswerQuestion();
-		quiztyme.addQuestion(new ShortAnswerQuestion();
 		
 		
 		quiztyme.giveQuiz();

@@ -29,26 +29,29 @@ public class Quiz {
 	
 	public double giveQuiz() {
 		
-		
+		System.out.println("Please enter answers all in lowercase. Forget the shift key exists.")
 		double score = 0.0;
 		
 		for (int i=0; i<questionsList.length; i++) {
-			questionsList[i] = questionsList[i];
+			//questionsList[i] = questionsList[i];
 
 			for (int j=0; j<answersList.length; j++) {
+				System.out.println(questionsList[j].getTheQuestionText());
+				
+				
 				answersList[j] = questionsList[j].getCorrectAnswer();
 			
 				Scanner scan = new Scanner(System.in);
 				
 				String a = scan.nextLine();
 				
-				System.out.println(questionsList[i].getTheQuestionText());
 				
 				if(a.equalsIgnoreCase(answersList[j])) {
 					score++;
-			}		
+			}	else System.out.println("Incorrect. The correct answer is: " + questionsList[j].getCorrectAnswer());
+	
 				
-		}
+			}		
 	} return score;
 		
 	

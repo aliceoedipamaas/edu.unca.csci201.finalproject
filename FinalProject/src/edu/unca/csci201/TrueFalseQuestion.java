@@ -2,16 +2,16 @@ package edu.unca.csci201;
 
 public class TrueFalseQuestion implements Question {
 
-	public String statement;
+	public String question;
 	public boolean answer;
 	
-	TrueFalseQuestion(String statement, boolean answer) {
-		this.statement = statement;
+	TrueFalseQuestion(String question, boolean answer) {
+		this.question = question;
 		this.answer = answer;
 	}
 	
 	public String getTheQuestionText() {
-		return statement;
+		return question;
 	}
 	
 	public boolean isCorrectAnswer(String theirAnswer) {

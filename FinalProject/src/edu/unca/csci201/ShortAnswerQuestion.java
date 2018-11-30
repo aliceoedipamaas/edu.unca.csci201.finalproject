@@ -6,8 +6,8 @@ public class ShortAnswerQuestion implements Question {
 	public String Answer;
 	
 	public ShortAnswerQuestion(String Question, String Answer) {
-		Question = Question;
-		Answer = Answer;
+		this.Question = Question;
+		this.Answer = Answer;
 	}
 	
 	public String getTheQuestionText() {

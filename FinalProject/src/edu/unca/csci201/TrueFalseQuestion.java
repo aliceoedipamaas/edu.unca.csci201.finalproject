@@ -15,7 +15,7 @@ public class TrueFalseQuestion implements Question {
 	}
 	
 	public boolean isCorrectAnswer(String theirAnswer) {
-		if (theirAnswer=="true"&& answer==true) {
+		if (theirAnswer.equalsIgnoreCase("true")&& answer==true) {
 			return true;
 		} else return false;
 	}

@@ -29,11 +29,12 @@ public class Quiz {
 	
 	public double giveQuiz() {
 		
+		
 		double score = 0.0;
 		
 		for (int i=0; i<questionsList.length; i++) {
 			questionsList[i] = questionsList[i];
-			
+
 			for (int j=0; j<answersList.length; j++) {
 				answersList[j] = questionsList[j].getCorrectAnswer();
 			

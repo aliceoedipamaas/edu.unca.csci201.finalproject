@@ -4,10 +4,7 @@ public class QuizTime {
 
 	public static void main(String[] args) {
 		
-		Quiz quiztyme = new Quiz();
-		
-		quiztyme.addQuestion(new TrueFalseQuestion("this is correct", true));
-		
+		Quiz quiztyme = new Quiz();		
 		
 		quiztyme.addQuestion(new MultipleChoiceQuestion("Which of these books won the National Book Award for Fiction in 1974?","a. The Moviegoer","b. Herzog","c. Gravity's Rainbow", "d. Catch-22","c"));
 		quiztyme.addQuestion(new ShortAnswerQuestion("Why was Gravity's Rainbow snubbed for the Pulitzer Prize in Fiction?","the scat scene"));
